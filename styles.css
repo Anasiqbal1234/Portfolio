@@ -1,0 +1,119 @@
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  margin: 10px;
+  margin-right: 120px;
+}
+nav ul li a {
+  color: #00a6ff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 13px;
+  transition: 0.5s;
+}
+nav ul li a:hover {
+  background-color: #0056b3;
+  color: white;
+}
+main {
+  grid-area: main;
+  background-color: #121212;
+  width: 100%;
+  padding: 20px;
+  border-radius: 12px;
+  margin: 20px 0;
+  justify-content: center;
+}
+
+.intro {
+  display: grid;
+  margin: 20px;
+}
+.intro h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: larger;
+  font-style: normal;
+  font: bold;
+  font-size: 50px;
+  color: #454242;
+}
+.intro span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  color: #4a4949;
+}
+.intro img {
+  margin-left: 500px;
+  border-radius: 50%;
+  border-color: #272525;
+  object-fit: contain;
+  height: 300px;
+  width: 300px;
+}
+footer {
+  background-color: #2c2b2b;
+  color: rgb(227, 227, 227);
+  text-align: center;
+  padding: 5px;
+  width: 100%;
+  grid-area: footer;
+  margin-top: 40px;
+  bottom: 0;
+}
+footer i {
+  margin-left: 20px;
+}
+.form{
+    margin: 40px;
+    display: grid;
+    padding: 40px;
+}
+.form input{
+  max-width: 200px;
+  height: 16px;
+  padding: 10px;
+  padding: 10px;
+  margin-top: 20px;
+}
+.form .btn{
+    margin-top: 20px;
+    width: 120px;
+}
+.form h1{
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    font-style: normal;
+    font: bold;
+    font-size: 30px;
+    color: #454242;
+}
+.projects{
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+}
+.card img {
+    max-width: 100%;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+.card p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px; 
+}
+nav {
+  display: grid;
+  background-color: #272525;
+  width: 100%;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  padding: 20px;
+  grid-gap: 10px;
+  border-radius: 2%;
+}
